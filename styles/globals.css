@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONT FACE */
+@font-face {
+  font-family: "Victor";
+  src: url("../public/src/fonts/VictorMono-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/src/fonts/Poppins-Regular.ttf");
+}
+
+/* FONT STYLE */
+.victor {
+  font-family: "Victor";
+}
+.poppins {
+  font-family: "Poppins";
+}
+/*  */
+
+* {
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
+body {
+  background-color: #ddd;
+}
