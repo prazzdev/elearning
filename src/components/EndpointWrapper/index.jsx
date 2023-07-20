@@ -11,7 +11,7 @@ export default function EndpointWrapper(props) {
         { exLength ? <h1 className="poppins text-xs lg:text-lg mt-1 mb-2 ml-6">Example : /{exEndpoint}</h1> : ''}
         <details>
             <summary className='poppins text-sm lg:text-md ml-6'>Click to see response</summary>
-            <pre className='victor font-semibold text-xs lg:text-xl bg-gray-400 p-3 lg:p-5 my-2 rounded-lg'>
+            <pre className='victor font-semibold text-xs lg:text-xl w-fit bg-gray-300 drop-shadow-sm p-3 lg:p-5 my-2 lg:ml-8 rounded-lg'>
 {jsonResponse}
             </pre>
         </details>

@@ -4,7 +4,7 @@ import EndpointWrapper from '../EndpointWrapper'
 export default function Main() {
   return (
     <>
-    <main className='py-8 px-4 lg:px-7 mt-[60px]'>
+    <main className='py-8 px-4 lg:px-7'>
         <div className="mb-8">
             <h1 className="poppins font-bold text-xl mb-2">Base URL :</h1>
             <span className="victor font-bold text-md lg:text-xl">https://www.elearning-stb.com</span>
