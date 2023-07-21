@@ -11,6 +11,23 @@ export default function Main() {
         </div>
         <div className="mb-5">
             <h1 className="poppins font-bold text-xl">Endpoints :</h1>
+
+            {/* GET SLIDE BANNER DATA */}
+            <EndpointWrapper 
+                endpointTitle={'Get data GAMBAR BANNER SLIDE'}
+                endpoint={'banner'}
+                // exEndpoint={''}
+                jsonResponse={
+`{
+    status: 200,
+    message: 'Success to get slider banner data.',
+    data: [
+        'https://elearning-stb.com/assets/image/banner1.webp',
+        'https://elearning-stb.com/assets/image/banner2.webp',
+        'https://elearning-stb.com/assets/image/banner3.webp',
+    ]
+}`
+                } />
             {/* GET BIDANG DATA */}
             <EndpointWrapper 
                 endpointTitle={'Get data BIDANG'}
